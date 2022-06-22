@@ -17,6 +17,7 @@ body {
 
   background-color: #360570;
   margin: 0;
+  margin-bottom: 30px;
   padding: 0;
 }
 
@@ -29,6 +30,7 @@ body {
 
 .menu-item:hover {
   background-color: #3f0783;
+  border-radius: 5px;
 }
 
 .flex-container {
