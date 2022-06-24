@@ -32,16 +32,11 @@ body {
   background-color: #3f0783;
 }
 
-.flex-container {
+.main-content {
   display: flex;
 
   flex-direction: column;
   justify-content: space-between;
-
-  width: 80vw;
-  height: 80vh;
-  margin: 0 auto;
-  background-color: #e4d6ff;
 }
 
 .flex-item {
@@ -50,15 +45,35 @@ body {
   margin: 0;
 }
 
-.red {
-  background-color: #974bf4;
+.content-section {
+  background-color: #974bf4e5;
+  width: fit-content;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  box-shadow: #360570 5px 5px 15px 5px ;
 }
-
-.green {
+.content-section2 {
   background-color: #8643D6;
+  width: fit-content;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  align-self: flex-end;
 }
 
 .blue {
   background-color: #6c1fcb;
 }
 .n {font-size: 25px;}
+.content-section h2 {
+  font-size: 25px;
+}
+.content-section h3 {
+  font-size: 20px;
+}
+.content-section ul {
+ list-style:none ;
+}
