@@ -17,7 +17,6 @@ body {
 
   background-color: #360570;
   margin: 0;
-  margin-bottom: 30px;
   padding: 0;
 }
 
@@ -52,28 +51,60 @@ body {
   margin: 20px;
   border-radius: 20px;
   border-bottom-left-radius: 0px;
-  box-shadow: #360570 5px 5px 15px 5px ;
+  box-shadow: #3d0681 5px 5px 10px 5px ;
 }
 .content-section2 {
-  background-color: #8643D6;
+  background-color: #8543d6eb;
   width: fit-content;
   padding: 20px;
   margin: 20px;
   border-radius: 20px;
-  border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0;
   align-self: flex-end;
+  box-shadow: #3d0681 5px 5px 10px 5px 
+}
+.content-section3 {
+  background-color: #773dbdee;
+  width: fit-content;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  box-shadow: #3d0681 5px 5px 10px 5px 
 }
 
 .blue {
   background-color: #6c1fcb;
 }
-.n {font-size: 25px;}
-.content-section h2 {
-  font-size: 25px;
+.content-section ul {
+ list-style: georgian;
 }
-.content-section h3 {
+main {
+}
+nav {
+  background-color: #a264ede8;
+  margin: 0;
+  padding: 10px;
+}
+.center {
+ align-self: center ;
+}
+.flex1 {
+  display: flex;
+}
+.p1 {
   font-size: 20px;
 }
-.content-section ul {
- list-style:none ;
+a {
+  color: black;
+}
+.p2 {
+  font-size: 30px;
+}
+footer {
+  background-color: #360570;
+}
+.color {
+  color: #e1c8ff;
+  font-size: 15px;
 }
