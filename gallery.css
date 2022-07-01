@@ -1,0 +1,25 @@
+.gallery {
+    display: flex;
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+    border: 2px solid rebeccapurple;
+
+}
+.gallery-image {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 300px;
+}
+.gallery-image img {
+    width: 300px;
+}
+.first-image {
+    margin-left: -500px;
+}
+.controls {
+    margin: 0 auto;
+    width: fit-content;
+}

@@ -28,7 +28,7 @@ body {
 }
 
 .menu-item:hover {
-  background-color: #3f0783;
+  background-color: #550ab1;
 }
 
 .main-content {
@@ -105,6 +105,9 @@ footer {
   background-color: #360570;
 }
 .color {
-  color: #e1c8ff;
+  color: white;
   font-size: 15px;
+}
+.active { 
+  background-color: #550ab1;
 }
